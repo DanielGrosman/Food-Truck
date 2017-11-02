@@ -10,4 +10,8 @@
 
 @implementation Cook
 
+-(double)foodTruck:(FoodTruck *)truck priceForFood:(NSString *)food {
+    return 30.0;
+}
+
 @end

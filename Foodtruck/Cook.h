@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FoodTruck.h"
 
-@interface Cook : NSObject
+@interface Cook : NSObject <FoodTruckDelegate>
 
 @end
