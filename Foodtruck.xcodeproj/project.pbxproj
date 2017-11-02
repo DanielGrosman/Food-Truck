@@ -10,6 +10,7 @@
 		8BF87F6E1CDB2B21001943DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F6D1CDB2B21001943DE /* main.m */; };
 		8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF87F751CDB2B34001943DE /* FoodTruck.m */; };
 		C07D9ECA1FABB67B0057075C /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = C07D9EC91FABB67B0057075C /* Cook.m */; };
+		C07D9ECD1FABBE710057075C /* badCook.m in Sources */ = {isa = PBXBuildFile; fileRef = C07D9ECC1FABBE710057075C /* badCook.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		8BF87F751CDB2B34001943DE /* FoodTruck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodTruck.m; sourceTree = "<group>"; };
 		C07D9EC81FABB67B0057075C /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
 		C07D9EC91FABB67B0057075C /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		C07D9ECB1FABBE710057075C /* badCook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = badCook.h; sourceTree = "<group>"; };
+		C07D9ECC1FABBE710057075C /* badCook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = badCook.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				8BF87F6D1CDB2B21001943DE /* main.m */,
+				C07D9ECB1FABBE710057075C /* badCook.h */,
+				C07D9ECC1FABBE710057075C /* badCook.m */,
 				C07D9EC81FABB67B0057075C /* Cook.h */,
 				C07D9EC91FABB67B0057075C /* Cook.m */,
 				8BF87F741CDB2B34001943DE /* FoodTruck.h */,
@@ -131,6 +136,7 @@
 				8BF87F6E1CDB2B21001943DE /* main.m in Sources */,
 				8BF87F761CDB2B34001943DE /* FoodTruck.m in Sources */,
 				C07D9ECA1FABB67B0057075C /* Cook.m in Sources */,
+				C07D9ECD1FABBE710057075C /* badCook.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
